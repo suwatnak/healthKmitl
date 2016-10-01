@@ -1,0 +1,39 @@
+/* included only when we don't want to use fonts from google server */
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Open Sans Light'), local('OpenSans-Light'), url(../fonts/THSarabun_0.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'), local('OpenSans'), url(../fonts/THSarabun_0.ttf) format('truetype');
+}
+@font-face {
+ font-family: 'THSarabun_0';
+ src: url("../fonts/THSarabun_0.eot"); /* EOT file for IE */
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+ font-family: 'THSarabun_0';
+  font-weight: normal;
+  font-style: normal;
+ src: url("../fonts/THSarabun_0.ttf") /* TTF file for CSS3 browsers */
+}
+@font-face {
+ font-family: 'jasmineupc';
+ font-weight: normal;
+  font-style: normal;
+ src: url("../fonts/jasmineupc.eot"); /* EOT file for IE */
+
+}
+@font-face {
+ font-family: 'jasmineupc';
+  font-weight: normal;
+  font-style: normal;
+ src: url("../fonts/jasmineupc.ttf") /* TTF file for CSS3 browsers */
+
+}
